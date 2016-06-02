@@ -1,13 +1,11 @@
 {
-  "name": "express-multichain-bootstrap",
+  "name": "express-bootstrap",
   "private": true,
-  "version": "0.0.1",
-  "description": "A bootstrap project for rapid experimentation on Multichain blockchains using light-weight HTML interfaces",
+  "version": "1.0.0",
+  "description": "A bootstrap project for rapid experimentation using light-weight HTML interfaces",
   "keywords": [
     "bootstrap",
     "experiment",
-    "multichain",
-    "blockchain",
     "express",
     "node",
     "HTML",
@@ -16,21 +14,8 @@
   "author": "Matt Smith <mattonfoot@gmail.com> (http://about.me/mattonfoot)",
   "license": "GPL-3.0",
   "engines": {
-    "node": ">=6.1.0",
+    "node": ">=4.4.5",
     "npm": ">=3.8.9"
-  },
-  "devDependencies": {
-    "grunt": "^1.0.1",
-    "grunt-browserify": "^5.0.0",
-    "grunt-cli": "^1.2.0",
-    "grunt-contrib-clean": "^1.0.0",
-    "grunt-contrib-copy": "^1.0.0",
-    "grunt-contrib-jshint": "^1.0.0",
-    "grunt-contrib-watch": "^1.0.0",
-    "grunt-eslint": "^18.1.0",
-    "grunt-exec": "^0.4.7",
-    "grunt-nodemon": "^0.4.2",
-    "load-grunt-tasks": "^3.5.0"
   },
   "dependencies": {
     "body-parser": "1.15.1",
@@ -42,8 +27,6 @@
     "grunt": "0.4.5",
     "less-middleware": "2.1.0",
     "morgan": "1.5.3",
-    "multichain-node": "^1.5.0",
-    "rsvp": "3.2.1",
     "serve-favicon": "2.2.1"
   }
 }
